@@ -1,1 +1,64 @@
-/*  your css code here. If applicable */
+ body {
+  background-color: #f5f5f5; /* Set body background color */
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #011e29; /* Set header background color */
+  text-align: center; /* Align header text to center */
+  padding: 20px; /* Add padding to header */
+  color: white; /* Text color */
+}
+
+.latest-news-section {
+  background-color: white; /* Set background color for pictorial news section */
+  padding: 20px; /* Add padding */
+  width: 60%; /* Set width */
+  height: 60%;	
+  margin: 20px auto; /* Center the section horizontally with margin */
+  text-align: center; /* Center text and images */
+  border-radius: 10px; /* Add border radius */
+  margin-left:20px;	
+}
+.main-section{
+ background-color: white; /* Set background color for pictorial news section */
+  padding: 20px; /* Add padding */
+  width: 60%; /* Set width */
+  height: 60%;		
+  margin: 20px auto; /* Center the section horizontally with margin */
+  text-align: center; /* Center text and images */
+  border-radius: 10px; /* Add border radius */
+  margin-left:20px;
+}
+
+.latest-news-section h2 {
+  margin-top: 0; /* Remove default margin */
+}
+
+.latest-news-section ul {
+ 
+}
+
+.pictorial-news-section {
+  background-color: white; /* Set background color for pictorial news section */
+  padding: 20px; /* Add padding */
+  width: 60%; /* Set width */
+  margin: 20px auto; /* Center the section horizontally with margin */
+  text-align: center; /* Center text and images */
+  border-radius: 20px; /* Add border radius */
+  height: 60%;	
+  margin-left:20px;	
+}
+
+.pictorial-news-section h3 {
+  margin-top: 0; /* Remove default margin */
+}
+
+.pictorial-news-section img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  margin: 10px; /* Add margin around images */
+}
+.flex{
+	display:flex;
+}
